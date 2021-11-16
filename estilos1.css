@@ -1,0 +1,161 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Mifuente";
+    src: url("fuentes/AgeoPersonalUse-Medium.otf");
+}
+p,label,a,span{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1em;
+}
+h1,h2,h3{
+    font-family: "Mifuente";
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    background-image: url("imagenes/fondo.png");
+    object-fit: cover;
+    color: #ffff;
+}
+.logo-contenido{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.logo-nav{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1em;
+    display: flex;
+   justify-content: space-between;
+}
+.logo-nav a{
+    color:#fff;
+    text-decoration: none;
+    font-family: "Mifuente";
+}
+.logo-nav h1{
+    font-size: 2.3em;
+}
+.logo-texto{
+    width: 30%;
+    margin: 0 auto;
+    margin-left: 10em;
+    margin-top: 9em;
+}
+.logo-texto h3{
+    padding-top: 1em;
+}
+.boton{
+    display: flex;
+    
+}
+.boton span{
+    margin-top: 1.5em;
+    margin-right: 1em;
+    text-decoration: none;
+    color:#fff;
+}
+.boton img{
+    width: 10%;
+    border-radius: 33px;
+   
+    margin-top: 1em;
+}
+.logo-imagenes{
+    width: 40%;
+    margin-top: 2em;
+    margin-bottom: 14em;
+   
+    display: flex;
+    justify-content: center;
+ 
+}
+.logo-imagenes img{
+    width: 14%;
+    object-fit: cover;
+}
+.ventajas-contenedor{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1em;
+    row-gap: 2em;
+    
+}
+.ventajas-titulo{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ventajas-titulo h3{
+    margin-bottom: 2em;
+}
+.ventajas1,.ventajas2, .ventajas3{
+    border: 2px #000 solid ;
+
+}
+.ventajas1 p,.ventajas2 p,.ventajas3 p{
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.ventajas1 h2,.ventajas2 h2,.ventajas3 h2{
+    margin-left: 4em;
+    margin-top: 3em;
+}
+.ventajas{
+    margin-bottom: 2em;
+}
+.piePag{
+    width: 100%;
+    display: grid;
+    padding-top: 3em;
+    padding-bottom: 7em;
+    padding-left: 4em;
+    grid-template-columns: repeat(3,1fr);
+    color: #fff;
+    background-color: #000;
+}
+.piePag-ytb a h1{
+    font-size: 1.2em;
+}
+.piePag ul{
+    list-style: none;
+}
+.piePag a{
+    font-size: 1.1em;
+}
+.piePag ul li a,.piePag-ytb a{
+    text-decoration: none;
+    color:#fff;
+}
+.piePag-ytb {
+    display: flex;
+    flex-direction: column;
+   
+}
+.piePag-ytb a{
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+.piePag-ytb a img{
+    margin-left: 1em;
+}
+

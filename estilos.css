@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    min-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+.txtJava{
+ 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+
+}
+.cont{
+   
+   display: grid;
+   grid-template-areas: "logo texto";
+   grid-template-columns: 50% 50%;
+   grid-template-rows: auto auto;
+}
+.c1{
+    grid-area: logo;
+}
+.t{
+    grid-area: texto;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}
+.t p{
+    margin-top: 3em;
+}
+.logo1{
+    width: 30%;
+    margin-left: 20em;
+}
+.ventajas{
+    display: flex;
+    flex-direction: column;
+    background-color: #ff7900;
+    height: 15em;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.logo img{
+    width: 30%;
+}
+.nav{
+    height: 2em;
+   
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3em;
+    padding-top: 0.5em;
+}
+.nav ul li{
+    margin-left: 1em;
+}
+.conten{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.logosFotos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 0.5em;
+    margin-left: 1em;
+}
+.logosFotos img{
+    margin-top: 5em;
+    width: 40%;
+}
+.logos{
+    display: grid;
+   
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 0.5em;
+    background-color: #008afa;
+    height: 15em;
+}
+.tituloLogos{
+    display: flex;
+    justify-content: center;
+}
+.tituloLogos{
+    margin-top: 5em;
+}
+.footer{
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: #ffff;
+}
+.footer p{
+    margin-top: 2em;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+   
+}
+p,a{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}

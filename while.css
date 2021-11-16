@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo{
+    width: 100%;
+    height: 20em;
+    /* background-color: #000;
+    display: flex;
+    justify-content: center; */
+    background-image: url("imagenes/fondolog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.logo h1{
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+.logo h2{
+   
+    margin-top: 2.4em;
+    font-size: 2.5em;
+}
+.logo ul{
+    display: flex;
+    list-style: none;
+}
+.logo ul li{
+    padding: 0.4em 0.5em;
+}
+.logo ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.contenedor-contenido{
+    display: flex;
+}
+.derecha{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.derecha form{
+    margin-left: 9em;
+    margin-right: 9em;
+}
+.izquierda{
+    width: 19%;
+    
+}
+.while{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+.texto{
+    margin-left: 14em;
+    margin-right: 14em;
+}
+@font-face{
+    font-family: "Mifuente";
+    src: url("fuentes/AgeoPersonalUse-Medium.otf");
+    
+}
+p,label,a,span{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1em;
+}
+h1,h2,h3{
+    font-family: "Mifuente";
+    font-size: 1.6em;
+}
+input[type="button"]{
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+.idea1{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.idea2 p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.idea2 p img{
+    width: 30%;
+    margin-top: 0.5em;
+    margin-bottom: 0.6em;
+}
+
+.edicion{
+    color: #000fff;
+}
+.sintaxis{
+    background-color: #f2f2f2;
+}
+.paginas{
+    display: flex;
+    list-style: none;
+}
+.paginas li a{
+    display: block;
+	padding: 10px 20px;
+    margin-bottom: 0.4em;
+    background-color: #000;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+}
+.piePag{
+    width: 100%;
+    display: grid;
+    padding-top: 3em;
+    padding-bottom: 7em;
+    padding-left: 4em;
+    grid-template-columns: repeat(3,1fr);
+    color: #fff;
+    background-color: #000;
+}
+.piePag-ytb a h1{
+    font-size: 1.2em;
+}
+.piePag ul{
+    list-style: none;
+}
+.piePag a{
+    font-size: 1.1em;
+}
+.piePag ul li a,.piePag-ytb a{
+    text-decoration: none;
+    color:#fff;
+}
+.piePag-ytb {
+    display: flex;
+    flex-direction: column;
+   
+}
+.piePag-ytb a{
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+.piePag-ytb a img{
+    margin-left: 1em;
+}
+.btn{
+    border-radius: 5%;
+    margin-left: 28em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    width: 10em;
+    height: 2.4em;
+
+}

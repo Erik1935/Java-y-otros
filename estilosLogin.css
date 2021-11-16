@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    background-image: url("imagenes/fondolog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.izquierda{
+    
+    display: flex;
+    justify-content: center;
+ 
+}
+.formulario{
+    margin-top: 11.2em;
+    width: 15em;
+    height: 17em;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13em;
+   
+}
+.form-cont {
+    width: 80%;
+}
+.form-cont form{
+    color: #fff;
+}
+.form-cont form h1{
+    margin-bottom: 0.5em;
+}
+.form-cont input{
+    width: 100%;
+}
+.form-cont label{
+    color:#fff;
+}    
+.form-cont input[type="text"],.form-cont input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    margin-bottom: 1em;
+}
+.form-cont input[type="submit"]{
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    color: #000;
+    margin-bottom: 1em;
+    border-radius: 20px;
+    height: 1.5em;
+}
+@font-face{
+    font-family: "Mifuente";
+    src: url("fuentes/AgeoPersonalUse-Medium.otf");
+    
+}
+p,label,a,span{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1em;
+}
+h1,h2,h3{
+    font-family: "Mifuente";
+    font-size: 1.6em;
+}

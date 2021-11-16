@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Mifuente";
+    src: url("fuentes/AgeoPersonalUse-Medium.otf");
+}
+.contenedor,.temas,.consejos,.consejos-divididos{
+    display: flex;
+    flex-direction: column;
+   
+}
+.inicio{
+    background-image: url("imagenes/fondolog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 27em;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+}
+.temas h2,.consejos h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.temas .temas-lista{
+    display: flex;
+    justify-content: center;
+}
+.temas-lista ul{
+    display: flex;
+    list-style: none;
+}
+.temas-lista ul li a{
+    display: block;
+	padding: 100px 70px;
+    background-color: #000;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+}
+
+.inicio nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.inicio nav h1{
+    font-size: 2.3em;
+    padding-left:1em ;
+    padding-top: 0.5em;
+}
+.inicio h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+.consejos-divididos{
+    align-items: center;
+    justify-content: center;
+}
+.consejo1,.consejo2{
+    display: flex;
+    width: 70%;
+   
+}
+.consejo1 img,.consejo2 img{
+    width: 40%;
+}
+.consejo1 p,.consejo2 p{
+    margin-top: 5em;
+}
+h1,h2,h3{
+    font-family: "Mifuente";
+    font-size: 1.6em;
+}
+p,a{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2em;
+}
+.piePag{
+    width: 100%;
+    display: grid;
+    padding-top: 3em;
+    padding-bottom: 7em;
+    margin-top: 7em;
+    padding-left: 4em;
+    grid-template-columns: repeat(3,1fr);
+    color: #fff;
+    background-color: #000;
+}
+.piePag a{
+    font-size: 1.1em;
+}
+.piePag-ytb a h1{
+    font-size: 1.2em;
+}
+.piePag ul{
+    list-style: none;
+}
+.piePag ul li a,.piePag-ytb a{
+    text-decoration: none;
+    color:#fff;
+}
+.piePag-ytb {
+    display: flex;
+    flex-direction: column;
+   
+}
+.piePag-ytb a{
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+.piePag-ytb a img{
+    margin-left: 1em;
+}
